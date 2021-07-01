@@ -1,6 +1,6 @@
 require('dotenv').config()
 
-const port = process.env.PORT || PORT_START;
+const port = process.env.PORT || 3000;
 const ngrok = require('ngrok');
 const express = require('express');
 const bodyParser = require('body-parser');
